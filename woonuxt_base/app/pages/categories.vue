@@ -15,5 +15,4 @@ useHead({
       <CategoryCard v-for="(category, i) in productCategories" :key="i" :node="category" :image-loading="i <= 2 ? 'eager' : 'lazy'" />
     </div>
   </main>
-  <!-- test -->
 </template>
